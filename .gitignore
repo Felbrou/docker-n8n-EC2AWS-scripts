@@ -1,0 +1,40 @@
+# Environment variables (contains passwords and secrets)
+.env
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
+
+# N8N data
+.n8n/
+n8n-data/
+
+# Docker volumes
+postgres-data/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if using npm/yarn)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
